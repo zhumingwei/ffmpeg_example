@@ -26,7 +26,7 @@
  *
  * Output a media file in any supported libavformat format. The default
  * codecs are used.
- * @example muxing.c
+ * @example` muxing.c
  */
 
 #include <stdlib.h>
@@ -599,7 +599,7 @@ int main(int argc, char **argv)
     if (have_audio)
         open_audio(oc, audio_codec, &audio_st, opt);
 
-    av_dump_format(oc, 0, filename, 1);
+    // av_dump_format(oc, 0, filename, 1);
 
     /* open the output file, if needed */
     if (!(fmt->flags & AVFMT_NOFILE)) {

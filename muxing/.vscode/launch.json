@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/myFFmpegProject",
-            "args": ["../spongebob.mp4"],
+            "args": ["./spongebob.mp4"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
